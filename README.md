@@ -3,12 +3,20 @@ Scraping top 300 anime on My Anime List (MAL) using pandas
 Using Python's panda API, I look at data from My Anime List and found the top 300 anime, sorting it by the following categories:
 Rank, Anime, Anime type, Episodes, Start air date, End air date, Members, and the Score.
 Rank - the rank of the anime, like Bocchi the Rock, at this time, is rank 19.
+
 Anime - the name of the anime
-Anime type - some anime are TV shows (they have multiple episodes), some are considered ONO (the chinese anime), some are considered OVAs, some are considered Movies.
+
+Anime type - some anime are TV shows (they have multiple episodes), some are considered ONO (the chinese anime), some are considered OVAs, some are 
+considered Movies.
+
 Episodes - the number of episodes in the anime
+
 Start air date - the starting air date of the anime in Japan, month and year
+
 End air date - the ending air date of the anime in Japan, month and year
+
 Members - the number of people who have stated they watched the anime on MAL
+
 Score - average rating of an anime by MAL users, this amount of users does not appear in this dataset and is lower than the number of people who have watched a certain anime.
 
 
